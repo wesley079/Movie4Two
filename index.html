@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>What are we watching tonight?</title>
+    <!-- Latest compiled and minified CSS -->
+    <link type="text/css" rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <link type="text/css" href="dist/css/style.css" rel="stylesheet"/>
+</head>
+<body>
+<!--Standard dropdown menu-->
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <!--Hamburger menu-->
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="">Movie4two</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="">Home</a></li>
+                <li><a href="contact">Contact</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+<div id="head" class="container-fluid">
+    <h1 class="">Can't decide what movie you and your friends are gonna watch?</h1>
+    <p class="average pad-top-5">Go ahead and find the best movie options for you and your friends!</p>
+</div>
+
+
+<div id="rootWizard">
+    <div class="navbar">
+        <div class="navbar-inner darkGrey">
+            <div class="container">
+                <ul id="wizardTabs">
+                    <li><a href="#tab1"  class="orangeFocus">1. Getting started</a></li>
+                    <li><a href="#tab2"  class="white">2. Pick a genre</a></li>
+                    <li><a href="#tab3"  class="white">3. Pick movies</a></li>
+                    <li><a href="#tab4"  class="white">4. Enjoy!</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="questionBlock" class="container-fluid mar-top-15 center">
+    <h1 class="large pad-top-5">How many people are watching?</h1>
+    <ul class="answers row">
+        <li class="answer">2</li>
+        <li id="ans" class="answer">3</li>
+        <li class="answer">4</li>
+        <li class="answer">5</li>
+        <li class="answer">6</li>
+    </ul>
+</div>
+
+
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script src="dist/jquery.bootstrap.wizard.js"></script>
+<script src="dist/bundle.js"></script>
+</body>
+</html>
